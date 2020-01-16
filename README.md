@@ -45,4 +45,12 @@ Setup 6:use customize-widget of framework at the activity that need update ui wh
 ![github](https://github.com/dersoncheng/MultipleTheme/blob/master/source/setup5.png 
 "github") 
 ![github](https://github.com/dersoncheng/MultipleTheme/blob/master/source/setup7.png 
-"github") 
+"github")
+
+
+### 遇到问题
+需要在acticity提前设置好theme
+
+在style中设置不生效
+
+使用androidx后需要配置androidx相关的混淆，否则正式包会出现无法清理缓存的item的问题
